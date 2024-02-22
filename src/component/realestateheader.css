@@ -1,0 +1,25 @@
+.realestateheader-section {
+    background-image: url(../images/rs-header-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: auto;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+
+
+}
+
+.realestateheader-section .realestate-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40% !important;
+    left: 0%;
+
+}

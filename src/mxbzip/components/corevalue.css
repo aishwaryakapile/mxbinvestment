@@ -1,0 +1,92 @@
+.value-section{
+    /* background: linear-gradient(180deg, rgba(28, 38, 58, 0) 0%, #1C263A 0%, #1C263A 100%); */
+    /* padding: 150px 0px; */
+    position: relative;
+    /* overflow: hidden; */
+    /* padding-top: 150px;
+    padding-bottom: 150px !important;
+    margin-bottom: 90px !important; */
+}
+
+/* .corevalue-section.lefttop {
+    position: absolute;
+    left: 0;
+    top: -150px ;
+}
+
+.corevalue-section.rightbottom {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+} */
+
+.corevalue-section .corevalue-heading{
+    color: #000;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+
+}
+.corevalue-section .corevalue-para{
+    color: #000;
+text-align: center;
+font-family: Vazirmatn;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+    
+}
+/* .corevalue-sectionimg{
+    width: 100%;
+  
+} */
+.corevalue-section .bg-box{
+    border-radius: 10px;
+background: #28364D;
+backdrop-filter: blur(5px);
+height: 456px;
+}
+.corevalue-section .inner-div{
+padding: 20px;
+}
+.corevalue-section .img-div{
+    height: 121px;
+}
+.corevalue-section img{
+    padding-top: 50px;
+    /* padding-bottom: 20px; */
+}
+.corevalue-section .img-heading{
+    font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 128%;
+/* or 33px */
+
+text-align: center;
+padding-top: 40px;
+
+color: #FFFFFF;
+
+}
+.corevalue-section .img-para{
+    font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+
+/* or 24px */
+
+text-align: justify;
+
+color: #C8C8C8;
+}
+/* .corevalue-section.dflex{
+display: flex !important;
+} */

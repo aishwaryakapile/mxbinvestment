@@ -1,0 +1,215 @@
+.investment-section {
+    min-height: 400px;
+    width: 100%;
+    background: #EDF1F5;
+    position: relative;
+}
+
+.investment-section .text-box {
+    color: #FFFFFF;
+    width: 100%;
+    margin: auto !important;
+    max-width: 1200px;
+    padding: 60px;
+    z-index: 4;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: linear-gradient(180deg, #1C263A 0%, #253046 100%);
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 20px;
+    background: #5E83AE;
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.investment-section .text-box img {
+    width: 100%;
+}
+
+.topright {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+
+.investment-section .text-box h2 {
+    color: #FFF;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 52px */
+    text-align: left;
+}
+
+.investment-section .text-box p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Vazirmatn;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    ;
+}
+
+.investment-section .img-para {
+
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px !important;
+    line-height: 34px;
+    padding-top: 40px;
+    text-align: justify !important;
+}
+
+
+/* .investment-section {
+    width: 100%;
+    background: #1D273B;
+    position: relative;
+    padding-top: 350px;
+} */
+
+.investment-portfolio-section {
+    width: 100%;
+    background: #1D273B;
+    position: relative;
+    padding-top: 350px;
+    padding-bottom: 150px;
+
+}
+
+.investment-portfolio-section .header h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.investment-portfolio-section .header p {
+    color: #C8C8C8;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.investment-portfolio-section .img-box {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/ipbgimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 7px 0px;
+    text-align: left;
+}
+
+/* .investment-portfolio-section .img-box div:first-child {
+    margin-right: 20px;
+} */
+
+.investment-portfolio-section .img-box h2 {
+    color: #000;
+    font-family: Vazirmatn;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.investment-portfolio-section .img-box h3 {
+    color: #1D273B;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/* .investment-portfolio-section .img-box h2:first-child{
+    transform: translateY(-10px);
+} */
+/* .investment-portfolio-section .directequity{
+    transform: translateY(-10px);
+
+} */
+.investment-portfolio-section .img-box p {
+    color: #8F90A6;
+    text-align: justify;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.investment-portfolio-section .img-box img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.investment-portfolio-section .img-box .overlay-text {
+    color: #D1D2DF;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 80%;
+    /* left: 40%;
+    transform: translateX(-45%); */
+}
+
+
+.investment-portfolio-section .img-box .overlay-text3 {
+    position: absolute;
+    top: 70%;
+
+}
+
+.investment-portfolio-section .img-box .overlay-text4 {
+    position: absolute;
+    top: 40%;
+
+}
+
+.investment-portfolio-section .img-box .potn-reltv,
+.investment-portfolio-section .img-box .row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.investment-portfolio-section .img-box h2:after {
+    content: "";
+    width: 126px;
+    height: 2px;
+    background: #D2433D;
+    position: absolute;
+    /* bottom: 0px; */
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+/* z-index: 3; */
+}

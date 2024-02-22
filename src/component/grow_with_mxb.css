@@ -1,0 +1,87 @@
+.growmxb-section{
+    opacity: 0.8999999761581421;
+background: url(../images/growwithmxb-bg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 150px !important;
+margin-bottom: auto;
+}
+.growmxb-section .growmxb-heading{
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+font-family: Vazirmatn;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 50px;
+}
+.growmxb-section .growmxb-sub-heading{
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+.growmxb-section .img-heading{
+    color: #FBF9F9;
+font-size: 26px;
+font-family: Vazirmatn;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+padding-top: 20px;
+}
+.growmxb-section .img-para{
+    color: #D1D2DF;
+    font-size: 18px;
+    font-family: DM Sans !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 70px;
+}
+.growmxb-section a{
+    color: #C8C8C8;
+text-align: center;
+font-size: 18px;
+font-family: Vazirmatn;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 70px;
+position:relative;
+left: -35%;
+
+}
+.growmxb-section a::after{
+    content: '';
+    position: absolute;
+    background: #D2433D;
+    width: 60.069px;
+    height: 2px;
+    top: 110%;
+    left: 40%;
+    z-index: 4;
+}
+.growmxb-section .bggrey{
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    /* background: #FFF; */
+    background-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    padding: 0px 5px 0px 5px;
+    height: 441px;
+    position: relative;
+    text-align: left;
+}
+.growmxb-section .inner-div{
+padding: 20px;
+}
+.growmxb-section svg{
+    transform: translateX(15px);
+}

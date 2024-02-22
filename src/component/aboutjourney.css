@@ -1,0 +1,65 @@
+.aboutjourney-section {
+    background: #1D273B;
+    /* display: inline-flex; */
+    /* padding-left: 30px; */
+    justify-content: flex-end !important;
+    align-items: center;
+    
+}
+
+.aboutjourney-section .text-div {
+    background: #EDF1F5;
+    padding: 30px;
+    /* margin-right: -12px; */
+}
+.aboutjourney-section .aboutjourney-heading{
+    color: #182D4D;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    text-align: left;
+    padding-top: 20px;
+
+}
+
+
+.aboutjourney-section .padding-left{
+    padding-left: 10%;
+}
+.aboutjourney-section .aboutjourney-sub-heading{
+    color: #182D4D;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    transform: translateY(-20px) !important;
+}
+.aboutjourney-section .aboutjourney-para{
+    color: #292D35;
+    text-align: justify;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 40px;
+}
+.aboutjourney-section img{
+    width: 100%;
+    height: 100%;
+}
+.aboutjourney-section .Governance-list li{
+    color: #4F545C;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.aboutjourney-section .third-para{
+padding-bottom: 200px;
+margin-bottom: 90px;
+}

@@ -1,0 +1,55 @@
+.career-section{
+    background: #EDF1F5;
+    padding-bottom: 80px;
+    position: relative;
+    /* height: auto;
+    min-height: 80vh; */
+
+}
+/* .career-section .career-image{
+    position: absolute;
+    left: 20%;
+    margin-bottom: -30px;
+    padding-bottom: 40px;
+} */
+.career-section .img-text{
+position: absolute;
+z-index: 2;
+text-align: justify;
+top: 240px;
+left: 210px;
+
+}
+.career-section .img-text .img-text-heading{
+    color: #1C263A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Vazirmatn;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 150% */
+}
+.career-section .img-text .img-text-para{
+    color: #1C263A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 45px */
+}
+.career-section .img-text .img-text-button{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+    border: 1px solid #A12222;
+background: #D2433D;
+width: 244px;
+height: 64px;
+flex-shrink: 0;
+}

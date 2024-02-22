@@ -1,0 +1,51 @@
+.investmentheader-section {
+    background-image: url(../images/investment-header-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: auto;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+
+
+}
+
+.investmentheader-section .investment-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40% !important;
+    left: 0%;
+
+}
+
+/* .investmentbotm-section {
+    background: #1D273B;
+}
+
+.investmentbotm-section .investbtm-heading {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+
+.investmentbotm-section .investbtm-para {
+    color: #C8C8C8;
+    font-size: 20px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+} */

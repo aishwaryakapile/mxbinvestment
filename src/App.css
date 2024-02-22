@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  src: local('Helvetica'), url(./font/FreeSans.otf) format('truetype');
+}
+
+
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}

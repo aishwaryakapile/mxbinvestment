@@ -1,0 +1,25 @@
+.termsheader-section {
+    background-image: url(../images/termsheader-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: auto;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+
+
+}
+
+.termsheader-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40% !important;
+    left: 0%;
+
+}

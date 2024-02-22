@@ -1,0 +1,165 @@
+
+
+.keyproject-section {
+    width: 100%;
+    background: #EDF1F5;
+    position: relative;
+    padding-top: 20px;
+}
+
+.keyproject-section .topright {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    z-index: 0;
+}
+
+.keyproject-section .bottomleft {
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    z-index: 0;
+}
+
+
+.keyproject-section .header h2 {
+    color: #1D273B;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+
+.keyproject-section .header p {
+    color: #1D273B;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.keyproject-section .header p:after {
+    content: "";
+    width: 126px;
+    height: 2px;
+    background: #D2433D;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.keyproject-section .container {
+    position: relative;
+    z-index:2;
+}
+
+
+.keyproject-section .img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    background: #1D273B;
+    text-align: left;
+    height: 100%;
+}
+
+.keyproject-section .img-box img {
+    width: 100%;
+}
+
+.keyproject-section .img-box div:last-child {
+    padding: 35px;
+}
+
+.keyproject-section .img-box h2 {
+    color: #FBF9F9;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.keyproject-section .img-box p {
+    color: #D1D2DF;
+    text-align: justify;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.keyproject-section .text-box .img-box .undev-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyproject-section .text-box .undev-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyproject-section .text-box .undev-left h2 {
+    color: #1D273B;
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.keyproject-section .text-box .undev-left h2:after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 126px;
+    height: 2px;
+    background: #D2433D;
+}
+
+
+.keyproject-section .text-box .undev-right {
+    border-radius: 8px;
+    background: #1D273B;
+}
+
+.keyproject-section .text-box .undev-right img {
+    width: 100%;
+}
+.keyproject-section .text-box .undev-right h2 {
+    color: #FBF9F9;
+    font-family: Vazirmatn;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.keyproject-section .text-box .undev-right p {
+    color: #D1D2DF;
+    text-align: justify;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

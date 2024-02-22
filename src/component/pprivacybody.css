@@ -1,0 +1,122 @@
+.ppolicybody-section {
+    display: flex;
+    /* width: 1792px; */
+    padding: 61px 205px 109px 205px;
+    flex-direction: column;
+    align-items: center;
+    background: #EDF1F5;
+}
+
+.ppolicybody-section p{
+    color: #1D273B;
+    text-align: justify;
+    font-family: Vazirmatn;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .ppolicybody-section  .tabdiv{
+    overflow-y: scroll;
+    height: 100%;
+    max-height: 80vh;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none;
+
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+.ppolicybody-section h6{
+  font-weight: 900;
+  font-family: Vazirmatn;
+  color: #1D273B;
+  font-size: 20px;
+  line-height: normal;
+ 
+  /* font-size: 30px; */
+
+}
+.ppolicybody-section svg{
+margin-right: 10px;
+}
+.ppolicybody-section img{
+  margin-right: 10px;
+  }
+.ppolicybody-section h3{
+  color: #1D273B;
+  text-align: center;
+  font-family: Vazirmatn;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: translateX(-20px);
+  /* text-align: left !important; */
+}
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 14px 16px;
+    /* margin-right: 0px; */
+    width: 90%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 26.5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+    background: #FFF;
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    text-align: left;
+    padding: 0px 12px;
+    width: 100%;
+    border-left: none;
+    height: 100%;
+  }
+
+  .tabcontent.active {
+    display: block;
+  } 
+
+
+  .ppolicybody-section .tabcontent p {
+    color: #1D273B;
+    text-align: justify;
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

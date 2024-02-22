@@ -1,0 +1,39 @@
+.mxbadvantage-section{
+    background: #EDF1F5;
+}
+.mxbadvantage-section .mxbadv-heading{
+    color: #1D273B;
+text-align: center;
+font-size: 40px;
+font-family: Vazirmatn;
+font-style: normal;
+font-weight: 700;
+line-height: 90px;
+text-transform: capitalize;
+}
+.mxbadvantage-section .inner-div{
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+/* .mxbadvantage-section img{
+    width: 79.543px;
+
+} */
+.mxbadvantage-section .img-heading{
+    color: #001833;
+    font-size: 24px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: justify;
+}
+.mxbadvantage-section .img-para{
+    color: #001833;
+text-align: justify;
+font-size: 16px;
+font-family: Vazirmatn;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+}

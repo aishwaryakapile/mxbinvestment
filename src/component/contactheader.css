@@ -1,0 +1,57 @@
+.contactheader-section {
+    background-image: url(../images/contact-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+    /* overflow-x: hidden;  */
+
+
+}
+.contactheader-section .contact-inner-div{
+    position: absolute;
+    top: 40% !important;
+    left: 0%;
+}
+.contactheader-section .career-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-transform: uppercase;
+    
+
+}
+
+.contactheader-section .career-paragraph {
+    color: #FFF;
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+/* .contactheader-section .paragraph-div {
+    position: absolute;
+    top: 50% !important;
+    left: 18%;
+} */
+.contactheader-section  .learnmore-btn{
+    background: #D2433D;
+border: 1px solid #A22222;
+ color: #FFFFFF;
+ width: 244px;
+height: 64px;
+font-family: Helvetica !important;
+position: absolute;
+top: 70%;
+left: 43%;
+}

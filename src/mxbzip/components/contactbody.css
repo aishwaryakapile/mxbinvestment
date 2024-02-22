@@ -1,0 +1,84 @@
+.contactbody-section{
+    background: #1D273B;
+}
+.contactbody-section .form-container{
+    background: #FFF;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 90px;
+  
+}
+.contactbody-section .contactform-para{
+    color: #1D273B;
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contactbody-section .contactform-heading{
+    color: #0F001A;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contactbody-section .padding-right{
+    padding-right: 10%;
+}
+.contactbody-section .submit-btn{
+    border: 1px solid #A12222;
+    background: #D2433D;
+    color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+width: 100%;
+}
+/* address div */
+.contactbody-section .address-div{
+    padding-left: 6%;
+    padding-top: 10%;
+}
+.contactbody-section .address-div p{
+    color: #FFF;
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* margin-left: 10px;
+    padding-left: 10px; */
+}
+.contactbody-section iframe{
+    border-radius: 18px;
+
+}
+.contactbody-section svg{
+    /* padding-right: 10px; */
+    fill:  #FFF;
+}
+.contactbody-section .address-paragraph{
+padding-left: 15px;
+}
+.contactbody-section .leftpadding{
+padding-left: 30px;
+}
+/* form */
+/* TextField{
+
+} */
+/* .contactbody-section label{
+    color: #0F001A;
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+} */

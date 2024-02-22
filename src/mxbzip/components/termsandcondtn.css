@@ -1,0 +1,28 @@
+.termsandcondtnheader-section{
+    background-image: url(../images/homeheaderbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 100%;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+    
+    
+}
+.termsandcondtnheader-section .Termsandcondtnheader-heading{
+    
+font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+/* or 117% */
+
+text-align: center !important;
+text-transform: uppercase;
+
+color: #FFFFFF;
+position: absolute;
+top: 50% !important;
+left: 0%;
+
+}

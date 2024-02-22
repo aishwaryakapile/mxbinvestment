@@ -1,0 +1,14 @@
+.career-contact-section {
+    background: #FFF;
+}
+
+.career-contact-section .career-contact-heading {
+    color: #1D273B;
+    text-align: center;
+    font-size: 40px;
+    font-family: Vazirmatn;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: capitalize;
+}

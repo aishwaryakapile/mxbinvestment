@@ -1,0 +1,85 @@
+.value-section{
+    background: #EDF1F5;
+    padding: 150px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.value-section .lefttop {
+    position: absolute;
+    left: 0;
+    top: -150px ;
+}
+
+.value-section .rightbottom {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+.value-section .value-heading{
+    color: #1D273B;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 225% */
+
+}
+.value-section .value-para{
+    color: #1D273B;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Vazirmatn;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 140% */
+}
+/* .value-section img{
+    width: 100%;
+  
+} */
+.value-section .bg-box{
+    border-radius: 10px;
+background: #28364D;
+backdrop-filter: blur(5px);
+height: 456px;
+}
+.value-section .inner-div{
+padding: 20px;
+}
+.value-section .img-div{
+    height: 121px;
+}
+.value-section img{
+    padding-top: 50px;
+    /* padding-bottom: 20px; */
+}
+.value-section .img-heading{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Vazirmatn;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%; /* 33.28px */
+padding-top: 40px;
+
+}
+.value-section .img-para{
+    color: #C8C8C8;
+    text-align: justify;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+/* .value-section .dflex{
+display: flex !important;
+} */
